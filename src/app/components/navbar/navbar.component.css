@@ -1,0 +1,28 @@
+/*barra de navegacion*/
+.navbar{
+  padding: 1rem;
+  background-image: linear-gradient(to right, #304352 0%, #D7CCD5 100%);
+  position: fixed;
+  min-width: 100%
+}
+
+/*Lista de onciones*/
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #304352;
+}
+/*Esconder el icono en pantallas pequeñas| adaptable Rsponsivo*/
+
+@media screen and (max-width:767px) {
+  .navbar-brand{
+    display: none;
+    position: fixed;
+  }
+}
+
